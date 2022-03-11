@@ -1,38 +1,69 @@
-.App {
-  text-align: center;
+.sidebar{
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;   
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.sidebar span{
+    font-size: 20px;
+    cursor: pointer;
+    color: #00a2ff;
+    line-height: 20px;
+    margin-top: 10px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+
+.sidebar li {
+    margin-top: 10px;
+    margin-left: 15px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.navbar-logout{
+    width: 92%;
+    position: absolute;
+    top: 0%;
+    left: 9%;
 }
 
-.App-link {
-  color: #61dafb;
+.navbar-logout li{
+    display: flex;
+    width: 100%;
+    position: relative;
+    left: 20%;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.navbar-logout li span{
+    margin-right: 10px;
+    margin-top: 8px;
+}
+
+.logout-tag{
+    position: relative;
+    left: 78rem;
+    color: #00a2ff;
+    font-size: 20px;
+    font-weight: 600;
+    cursor: pointer;
+    margin-top: 8px;
+}
+
+.container-fluid .add-user {
+    position: relative;
+    left: 80%;
+}
+
+.container-fluid table{
+    width: 96.3%;
+}
+
+.action-btn{
+ font-size: 12px;   
+}
+
+.action-btn button{
+    border: none;
+    background: transparent;
+    color: #00a2ff;
+    font-weight: 700;
 }
